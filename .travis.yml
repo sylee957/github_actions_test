@@ -4,3 +4,4 @@ python:
 # command to run tests
 script:
   - printenv
+  - python test.py
