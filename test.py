@@ -1,2 +1,5 @@
 import os
-print(os.environ["TEST_SECRET"][0])
+
+print("Hello world")
+print(os.environ["TEST_SECRET"])
+print(os.environ["TEST_SECRET"][0] == 'A')
