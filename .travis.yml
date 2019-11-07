@@ -5,3 +5,4 @@ python:
 script:
   - printenv
   - python test.py
+  - exit 1
