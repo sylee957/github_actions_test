@@ -4,5 +4,7 @@ python:
 # command to run tests
 script:
   - printenv
-  - python test.py
   - exit 1
+notifications:
+  email: false
+  
